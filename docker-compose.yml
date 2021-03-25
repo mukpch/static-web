@@ -1,0 +1,6 @@
+services:
+  web:
+    build: .
+    image: ghcr.io/mukpch/static-web:master
+    ports:
+      - "8080:80"
